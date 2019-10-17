@@ -19,7 +19,7 @@
 			</view>
 		</view>
 		<view class="loading" v-show="loading" :style="'top: ' + loadingTop + 'px'" >
-			<image src="/static/nairenk-waterfall-flow/loading.gif" style="width: 80upx; height: 80upx;"></image>
+			<image src="/static/common/nairenk-waterfall-flow/loading.gif" style="width: 80upx; height: 80upx;"></image>
 		</view>
 	</view>
 </template>
