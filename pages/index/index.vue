@@ -1,5 +1,6 @@
 <template>
-	<view class="content">
+	<view class="container">
+		<view class="status_bar"></view>
 		<waterfall-flow :list="list" :loading="loading" @click="choose"></waterfall-flow>
 	</view>
 </template>

@@ -1,16 +1,62 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "引导页",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+			}
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "瀑布流首页",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/indix/indix",
+			"style": {
+				"navigationBarTitleText": "瀑布流首页",
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
 			}
 		}
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "左",
+				"iconPath": "static/common/tabbar/shouye_nor@2x.png",
+				"selectedIconPath": "static/common/tabbar/shouye@2x.png"
+			},
+			{
+				"pagePath": "pages/indix/indix",
+				"text": "右",
+				"iconPath": "static/common/tabbar/haodian_nor@2x.png",
+				"selectedIconPath": "static/common/tabbar/haodian@2x.png"
+			}
+		]
 	}
 }

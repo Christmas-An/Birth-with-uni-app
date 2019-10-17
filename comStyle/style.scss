@@ -1,0 +1,24 @@
+$smfz: 26rpx;
+$mdfz: 28rpx;
+$lgfz: 30rpx;
+
+// 系统栏高度
+.status_bar {
+  height: var(--status-bar-height);
+  width: 100%;
+}
+
+.y-flex {
+  display: flex;
+}
+
+.y-alcenter {
+  display: flex;
+  align-items: center;
+}
+
+.y-direction {
+  display: flex;
+  flex-direction: column;
+}
+
